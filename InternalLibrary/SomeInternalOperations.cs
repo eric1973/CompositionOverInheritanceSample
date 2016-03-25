@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InternalLibrary
 {
-    internal class SomeInternalOperations : SomeInterface
+    internal class SomeInternalOperations : ISomeInternalInterface
     {
         public decimal CalculateDangerousAmount(decimal partialAmount, decimal otherAmount)
         {

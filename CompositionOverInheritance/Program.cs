@@ -11,7 +11,7 @@ namespace CompositionOverInheritance
     {
         static void Main(string[] args)
         {
-            SomePublicClass instance = new SomePublicClass();
+            SomeInternalClassDecorator instance = new SomeInternalClassDecorator();
             instance.CalculateDangerousAmount(2300.50M, 45231.23M);
 
             instance.Print();
